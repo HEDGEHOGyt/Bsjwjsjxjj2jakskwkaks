@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #333;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,15 +11,15 @@ body {
 
 .container {
     width: 50%;
-    background-color: #fff;
+    background-color: #222;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     border-radius: 5px;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #fff;
 }
 
 form {
@@ -32,10 +32,12 @@ textarea {
     height: 100px;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #444;
     border-radius: 5px;
     font-size: 16px;
     resize: none;
+    background-color: #555;
+    color: #fff;
 }
 
 button {
@@ -57,14 +59,22 @@ button:hover {
 }
 
 .post {
-    background-color: #f9f9f9;
+    background-color: #444;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #555;
     border-radius: 5px;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .post p {
     margin: 0;
     word-wrap: break-word;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #bbb;
+    text-align: right;
+    margin-top: 5px;
 }
